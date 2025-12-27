@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #fff;
+      background: linear-gradient(135deg, #da3134, #2e47b5);
+    }
+
+    header {
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: 2rem auto;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      color: #fff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(135deg, #090216, #764ba2);
+      color: #fff;
+      border-radius: 0 0 40px 40px;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background: #111c44;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Links section styling */
+    .links a {
+      text-decoration: none;
+      padding: 1rem;
+      color: #fff;
+      border-radius: 10px;
+      text-align: center;
+      display: block;
+      transition: transform 0.2s;
+    }
+
+    .links a:hover {
+      transform: scale(1.05);
+    }
+
+    .linkedin { background: #ba0d38; }
+    .github { background: #ba0d38; }
+    .leetcode { background: #ba0d38; color:#000; }
+    .hackerrank { background: #ba0d38; color:#000; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muralidharan G</h1>
+    <p style="font-size:0.9rem; color:#ccc;">CSE Student | Aspiring Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#links">Links</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I'm Muralidharan</h2>
+    <p>A Computer Science student & aspiring developer</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science Engineering (CSE) student passionate about web development and software engineering.
+      I enjoy learning new technologies and building simple, clean applications.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul style="margin-top:1rem; padding-left:1.5rem; columns:2;">
+      <li>C Programming</li>
+      <li>Quantitative Aptitude</li>
+      <li>Networking Basics</li>
+      <li>Problem Solving</li>
+      <li>System Administration (Basics)</li>
+      <li>Technical Communication</li>
+    </ul>
+  </section>
+
+  <section id="links">
+    <h2>Links</h2>
+    <div class="links" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:1rem; margin-top:1rem;">
+      <a href="https://www.linkedin.com/in/muralidharan-g-a17b16389/" class="linkedin" target="_blank">LinkedIn</a>
+      <a href="https://github.com/muralidharan-07" class="github" target="_blank">GitHub</a>
+      <a href="https://leetcode.com/u/muralidharan-15/" class="leetcode" target="_blank">LeetCode</a>
+      <a href="https://www.hackerrank.com/profile/muralidharang_c1" class="hackerrank" target="_blank">HackerRank</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <a href="mailto:muralidharang.cs24@bitsathy.ac.in">Email me</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Muralidharan G | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
